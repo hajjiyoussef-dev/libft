@@ -26,15 +26,15 @@ int ft_atoi(char *nbr)
     {
         res = res * 10 + (nbr[i] - '0');
         i++;
-    } 
-
+    }
+    
     return ((res * s));
  
 } 
 
 int main(void)
 {
-    char nbr[] = " -+-+-+-23h45678d234567" ;
+    char nbr[] = "  -+-+-+--23h45678d234567" ;
 
     printf("%d" ,ft_atoi(nbr) );
     return(0);
