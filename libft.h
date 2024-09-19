@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
 int ft_atoi(char *nbr) ;
 int ft_isalnum(int c);
 int ft_islapha(int c);
@@ -10,7 +11,7 @@ int ft_isascii(int c);
 int ft_isdigit(int c);
 int ft_isprint(int c);
 int ft_memcmp(const void *ptr1, const void *ptr2, size_t num);
-int  ft_strlen(char *str);
+int  ft_strlen(const char *str);
 int ft_strncmp(char *dest, char *str, size_t n);
 int ft_tolower(int ch);
 int ft_toupper(int ch);
@@ -26,6 +27,9 @@ char *ft_strlcat(char *dest, char *str, int n);
 char *ft_strlcpy(char *dest, char *str, int size);
 char	*ft_strnstr(char *str, char *to_find , size_t len);
 char *ft_strrchr(const char *str, int ch);
+char *ft_substr( char const *s, unsigned int start, size_t len);
+char *ft_strjoin(char const *s1, char const *s2) ;
+
 
 
 

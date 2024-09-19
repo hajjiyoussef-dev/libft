@@ -1,4 +1,4 @@
-
+#include "libft.h"
 
 #include <stdio.h>
 void *ft_memcpy(void *dest, void *str, unsigned int size)

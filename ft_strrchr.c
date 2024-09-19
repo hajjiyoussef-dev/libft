@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "libft.h"
 char *ft_strrchr(const char *str, int ch)
 {
     const char *last_ch = 0 ;

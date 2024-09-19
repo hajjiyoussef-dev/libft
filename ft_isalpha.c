@@ -1,4 +1,5 @@
 
+#include "libft.h"
 
 int ft_islapha(int c)
 {

@@ -1,9 +1,9 @@
 
 
 
-#include <stdio.h>
+#include "libft.h"
 
-int  ft_strlen(char *str)
+int  ft_strlen( const char *str)
 {
     int i;
 
@@ -18,11 +18,11 @@ int  ft_strlen(char *str)
 
 } 
 
-int main(void)
-{
-    char str[] =  "hello" ;
+// int main(void)
+// {
+//     char str[] =  "hello" ;
 
-    printf("%d" , ft_strlen(str));
+//     printf("%d" , ft_strlen(str));
 
-    return (0) ;
-}
+//     return (0) ;
+// }

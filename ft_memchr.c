@@ -1,5 +1,7 @@
 
-#include <stdio.h>
+#include <stdio.h> 
+
+#include "libft.h"
 
 void *ft_memchr(const char *str, int c, size_t n)
 {

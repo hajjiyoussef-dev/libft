@@ -1,5 +1,6 @@
 
 #include <stdio.h>
+#include "libft.h"
 
 void *ft_memmove(void *dest, void *str , int size)
 {
