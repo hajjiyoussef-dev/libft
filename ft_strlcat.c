@@ -6,7 +6,7 @@
 /*   By: yhajji <yhajji@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 14:29:42 by yhajji            #+#    #+#             */
-/*   Updated: 2024/11/10 14:04:54 by yhajji           ###   ########.fr       */
+/*   Updated: 2024/11/11 19:31:43 by yhajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 
 	i = 0;
 	j = 0;
+	if (dest == NULL)
+		return (ft_strlen(src));
 	slen = ft_strlen(src);
 	while (dest[j] != '\0')
 	{

@@ -22,8 +22,9 @@ RM = rm -f
 	${CC} -c $<
 
 ${NAME}: ${OBJS} 
-	${AR} ${NAME} ${OBJS} 
-re: fclean all
+	${AR} ${NAME} ${OBJS}
+
+all: ${NAME}
 
 clean:
 	${RM} ${OBJS} ${OBJS_BONUS}
@@ -31,9 +32,7 @@ clean:
 bonus: ${OBJS_BONUS}
 	${AR} ${NAME} ${OBJS_BONUS}
 
-
 fclean: clean
 	${RM} ${NAME} 
 
-
-all: ${NAME}
+re: fclean all
