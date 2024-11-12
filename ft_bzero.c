@@ -6,12 +6,11 @@
 /*   By: yhajji <yhajji@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 23:25:09 by yhajji            #+#    #+#             */
-/*   Updated: 2024/11/12 22:24:05 by yhajji           ###   ########.fr       */
+/*   Updated: 2024/11/12 22:25:03 by yhajji           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 void	ft_bzero(void *s,	size_t num)
 {
